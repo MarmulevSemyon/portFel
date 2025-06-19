@@ -1,0 +1,35 @@
+# Django
+*.log
+*.pot
+*.pyc
+__pycache__/
+db.sqlite3
+media/
+env/
+venv/
+.DS_Store
+migrations/
+
+staticfiles/
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Сборка
+dist/
+build/
+*.tmp
+*.cache
+postgres_data/*
+!postgres_data/.gitkeep
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Локальные настройки
+*.local
